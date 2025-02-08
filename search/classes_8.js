@@ -1,19 +1,16 @@
 var searchData=
 [
-  ['iconprog2_6877',['IconProG2',['../classtracktion_1_1engine_1_1IconProG2.html',1,'tracktion::engine::IconProG2'],['../classtracktion_1_1engine_1_1IconProG2.html',1,'tracktion::IconProG2']]],
-  ['impulseresponseplugin_6878',['ImpulseResponsePlugin',['../classtracktion_1_1engine_1_1ImpulseResponsePlugin.html',1,'tracktion::engine::ImpulseResponsePlugin'],['../classtracktion_1_1engine_1_1ImpulseResponsePlugin.html',1,'tracktion::ImpulseResponsePlugin']]],
-  ['indexentry_6879',['IndexEntry',['../structtracktion_1_1engine_1_1TracktionArchiveFile_1_1IndexEntry.html',1,'tracktion::engine::TracktionArchiveFile']]],
-  ['inputdevice_6880',['InputDevice',['../classtracktion_1_1engine_1_1InputDevice.html',1,'tracktion::engine::InputDevice'],['../classtracktion_1_1engine_1_1InputDevice.html',1,'tracktion::InputDevice']]],
-  ['inputdevicedestination_6881',['InputDeviceDestination',['../structtracktion_1_1engine_1_1InputDeviceInstance_1_1InputDeviceDestination.html',1,'tracktion::engine::InputDeviceInstance']]],
-  ['inputdevicedestinationlist_6882',['InputDeviceDestinationList',['../structtracktion_1_1engine_1_1InputDeviceInstance_1_1InputDeviceDestinationList.html',1,'tracktion::engine::InputDeviceInstance']]],
-  ['inputdeviceinstance_6883',['InputDeviceInstance',['../classtracktion_1_1engine_1_1InputDeviceInstance.html',1,'tracktion::engine::InputDeviceInstance'],['../classtracktion_1_1engine_1_1InputDeviceInstance.html',1,'tracktion::InputDeviceInstance']]],
-  ['inputprovider_6884',['InputProvider',['../structtracktion_1_1engine_1_1InputProvider.html',1,'tracktion::engine::InputProvider'],['../structtracktion_1_1engine_1_1InputProvider.html',1,'tracktion::InputProvider']]],
-  ['insertplugin_6885',['InsertPlugin',['../classtracktion_1_1engine_1_1InsertPlugin.html',1,'tracktion::engine::InsertPlugin'],['../classtracktion_1_1engine_1_1InsertPlugin.html',1,'tracktion::InsertPlugin']]],
-  ['insertreturnnode_6886',['InsertReturnNode',['../classtracktion_1_1engine_1_1InsertReturnNode.html',1,'tracktion::engine::InsertReturnNode'],['../classtracktion_1_1engine_1_1InsertReturnNode.html',1,'tracktion::InsertReturnNode']]],
-  ['insertsendnode_6887',['InsertSendNode',['../classtracktion_1_1engine_1_1InsertSendNode.html',1,'tracktion::engine::InsertSendNode'],['../classtracktion_1_1engine_1_1InsertSendNode.html',1,'tracktion::InsertSendNode']]],
-  ['insertsendreturndependencynode_6888',['InsertSendReturnDependencyNode',['../classtracktion_1_1engine_1_1InsertSendReturnDependencyNode.html',1,'tracktion::engine::InsertSendReturnDependencyNode'],['../classtracktion_1_1engine_1_1InsertSendReturnDependencyNode.html',1,'tracktion::InsertSendReturnDependencyNode']]],
-  ['intervallist_6889',['IntervalList',['../structtracktion_1_1engine_1_1ReferencedMaterialList_1_1IntervalList.html',1,'tracktion::engine::ReferencedMaterialList']]],
-  ['inverteffect_6890',['InvertEffect',['../structtracktion_1_1engine_1_1InvertEffect.html',1,'tracktion::engine::InvertEffect'],['../structtracktion_1_1engine_1_1InvertEffect.html',1,'tracktion::InvertEffect']]],
-  ['iteminfo_6891',['ItemInfo',['../structtracktion_1_1engine_1_1Clipboard_1_1ProjectItems_1_1ItemInfo.html',1,'tracktion::engine::Clipboard::ProjectItems']]],
-  ['iterator_6892',['Iterator',['../structtracktion_1_1engine_1_1SelectionManager_1_1Iterator.html',1,'tracktion::engine::SelectionManager']]]
+  ['iconprog2_0',['iconprog2',['../classtracktion_1_1engine_1_1IconProG2.html',1,'tracktion::IconProG2'],['../classtracktion_1_1engine_1_1IconProG2.html',1,'tracktion::engine::IconProG2']]],
+  ['impulseresponseplugin_1',['impulseresponseplugin',['../classtracktion_1_1engine_1_1ImpulseResponsePlugin.html',1,'tracktion::engine::ImpulseResponsePlugin'],['../classtracktion_1_1engine_1_1ImpulseResponsePlugin.html',1,'tracktion::ImpulseResponsePlugin']]],
+  ['indexentry_2',['IndexEntry',['../structtracktion_1_1engine_1_1TracktionArchiveFile_1_1IndexEntry.html',1,'tracktion::engine::TracktionArchiveFile']]],
+  ['inputdevice_3',['inputdevice',['../classtracktion_1_1engine_1_1InputDevice.html',1,'tracktion::engine::InputDevice'],['../classtracktion_1_1engine_1_1InputDevice.html',1,'tracktion::InputDevice']]],
+  ['inputdeviceinstance_4',['inputdeviceinstance',['../classtracktion_1_1engine_1_1InputDeviceInstance.html',1,'tracktion::engine::InputDeviceInstance'],['../classtracktion_1_1engine_1_1InputDeviceInstance.html',1,'tracktion::InputDeviceInstance']]],
+  ['inputprovider_5',['inputprovider',['../structtracktion_1_1engine_1_1InputProvider.html',1,'tracktion::engine::InputProvider'],['../structtracktion_1_1engine_1_1InputProvider.html',1,'tracktion::InputProvider']]],
+  ['insertnode_6',['insertnode',['../classtracktion_1_1engine_1_1InsertNode.html',1,'tracktion::engine::InsertNode'],['../classtracktion_1_1engine_1_1InsertNode.html',1,'tracktion::InsertNode']]],
+  ['insertplugin_7',['insertplugin',['../classtracktion_1_1engine_1_1InsertPlugin.html',1,'tracktion::engine::InsertPlugin'],['../classtracktion_1_1engine_1_1InsertPlugin.html',1,'tracktion::InsertPlugin']]],
+  ['insertsendnode_8',['insertsendnode',['../classtracktion_1_1engine_1_1InsertSendNode.html',1,'tracktion::engine::InsertSendNode'],['../classtracktion_1_1engine_1_1InsertSendNode.html',1,'tracktion::InsertSendNode']]],
+  ['intervallist_9',['IntervalList',['../structtracktion_1_1engine_1_1ReferencedMaterialList_1_1IntervalList.html',1,'tracktion::engine::ReferencedMaterialList']]],
+  ['inverteffect_10',['inverteffect',['../structtracktion_1_1engine_1_1InvertEffect.html',1,'tracktion::engine::InvertEffect'],['../structtracktion_1_1engine_1_1InvertEffect.html',1,'tracktion::InvertEffect']]],
+  ['iteminfo_11',['ItemInfo',['../structtracktion_1_1engine_1_1Clipboard_1_1ProjectItems_1_1ItemInfo.html',1,'tracktion::engine::Clipboard::ProjectItems']]],
+  ['iterator_12',['Iterator',['../structtracktion_1_1engine_1_1SelectionManager_1_1Iterator.html',1,'tracktion::engine::SelectionManager']]]
 ];
