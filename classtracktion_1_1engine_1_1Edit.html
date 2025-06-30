@@ -148,6 +148,10 @@ Public Types</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:a5ecd9cc3e9357f31269f6cbc7ca79c4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">An enum to determine the duration of the count in.  <a href="classtracktion_1_1engine_1_1Edit.html#a5ecd9cc3e9357f31269f6cbc7ca79c4c">More...</a><br /></td></tr>
 <tr class="separator:a5ecd9cc3e9357f31269f6cbc7ca79c4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06f3d6634e75e513e382232f0df7a3cf" id="r_a06f3d6634e75e513e382232f0df7a3cf"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtracktion_1_1engine_1_1Edit.html#a06f3d6634e75e513e382232f0df7a3cf">EditFileRetriever</a> = std::function&lt; juce::File()&gt;</td></tr>
+<tr class="separator:a06f3d6634e75e513e382232f0df7a3cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2772c65a556a43a8661b40731ae1616" id="r_ab2772c65a556a43a8661b40731ae1616"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtracktion_1_1engine_1_1Edit.html#ab2772c65a556a43a8661b40731ae1616">FilePathResolver</a> = std::function&lt; juce::File(const juce::String &amp;)&gt;</td></tr>
+<tr class="separator:ab2772c65a556a43a8661b40731ae1616"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_types_classtracktion_1_1engine_1_1Selectable"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classtracktion_1_1engine_1_1Selectable')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classtracktion_1_1engine_1_1Selectable.html">tracktion::engine::Selectable</a></td></tr>
 <tr class="memitem:a8e3066afe6d51968a989e0bf802cc3e5 inherit pub_types_classtracktion_1_1engine_1_1Selectable" id="r_a8e3066afe6d51968a989e0bf802cc3e5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtracktion_1_1engine_1_1Selectable.html#a8e3066afe6d51968a989e0bf802cc3e5">WeakRef</a> = juce::WeakReference&lt; <a class="el" href="classtracktion_1_1engine_1_1Selectable.html">Selectable</a> &gt;</td></tr>
 <tr class="separator:a8e3066afe6d51968a989e0bf802cc3e5 inherit pub_types_classtracktion_1_1engine_1_1Selectable"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -388,6 +392,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a65a468ba390c66ccd43a1d977f144cbe" id="r_a65a468ba390c66ccd43a1d977f144cbe"><td class="memItemLeft" align="right" valign="top">juce::Array&lt; <a class="el" href="structtracktion_1_1engine_1_1EditItemID.html">EditItemID</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtracktion_1_1engine_1_1Edit.html#a65a468ba390c66ccd43a1d977f144cbe">getLowLatencyDisabledPlugins</a> ()</td></tr>
 <tr class="memdesc:a65a468ba390c66ccd43a1d977f144cbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current set of diabled plugins.  <br /></td></tr>
 <tr class="separator:a65a468ba390c66ccd43a1d977f144cbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12f68b1045e86a460b319c7c88437234" id="r_a12f68b1045e86a460b319c7c88437234"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtracktion_1_1engine_1_1Edit.html#a12f68b1045e86a460b319c7c88437234">setLatencyCompensationEnabled</a> (bool enabled)</td></tr>
+<tr class="memdesc:a12f68b1045e86a460b319c7c88437234"><td class="mdescLeft">&#160;</td><td class="mdescRight">Can be used to disable latency compensation when playing (it is enabled by default)  <br /></td></tr>
+<tr class="separator:a12f68b1045e86a460b319c7c88437234"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac63d2cb24d6d18dcfe8a000335b0607b" id="r_ac63d2cb24d6d18dcfe8a000335b0607b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtracktion_1_1engine_1_1Edit.html#ac63d2cb24d6d18dcfe8a000335b0607b">isLatencyCompensationEnabled</a> () const noexcept</td></tr>
+<tr class="separator:ac63d2cb24d6d18dcfe8a000335b0607b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4ef8f026885becf6226c16eacde6430" id="r_af4ef8f026885becf6226c16eacde6430"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtracktion_1_1engine_1_1RackTypeList.html">RackTypeList</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtracktion_1_1engine_1_1Edit.html#af4ef8f026885becf6226c16eacde6430">getRackList</a> () const noexcept</td></tr>
 <tr class="memdesc:af4ef8f026885becf6226c16eacde6430"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="classtracktion_1_1engine_1_1RackTypeList.html">RackTypeList</a> which contains all the RackTypes for the <a class="el" href="classtracktion_1_1engine_1_1Edit.html" title="The Tracktion Edit class!">Edit</a>.  <br /></td></tr>
 <tr class="separator:af4ef8f026885becf6226c16eacde6430"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -657,12 +666,12 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:af96ac416120505b387366e2700b2630a" id="r_af96ac416120505b387366e2700b2630a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtracktion_1_1engine_1_1Engine.html">Engine</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtracktion_1_1engine_1_1Edit.html#af96ac416120505b387366e2700b2630a">engine</a></td></tr>
 <tr class="memdesc:af96ac416120505b387366e2700b2630a"><td class="mdescLeft">&#160;</td><td class="mdescRight">A reference to the <a class="el" href="classtracktion_1_1engine_1_1Engine.html" title="The Engine is the central class for all tracktion sessions.">Engine</a>.  <br /></td></tr>
 <tr class="separator:af96ac416120505b387366e2700b2630a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a239497b91484221c8d4b2118ca648197" id="r_a239497b91484221c8d4b2118ca648197"><td class="memItemLeft" align="right" valign="top">std::function&lt; juce::File()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtracktion_1_1engine_1_1Edit.html#a239497b91484221c8d4b2118ca648197">editFileRetriever</a></td></tr>
-<tr class="memdesc:a239497b91484221c8d4b2118ca648197"><td class="mdescLeft">&#160;</td><td class="mdescRight">This callback can be set to return the file for this <a class="el" href="classtracktion_1_1engine_1_1Edit.html" title="The Tracktion Edit class!">Edit</a>.  <br /></td></tr>
-<tr class="separator:a239497b91484221c8d4b2118ca648197"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8a37a1004bd5bf2233e4a61cbc0265b" id="r_ae8a37a1004bd5bf2233e4a61cbc0265b"><td class="memItemLeft" align="right" valign="top">std::function&lt; juce::File(const juce::String &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtracktion_1_1engine_1_1Edit.html#ae8a37a1004bd5bf2233e4a61cbc0265b">filePathResolver</a></td></tr>
-<tr class="memdesc:ae8a37a1004bd5bf2233e4a61cbc0265b"><td class="mdescLeft">&#160;</td><td class="mdescRight">This callback can be set to resolve file paths.  <br /></td></tr>
-<tr class="separator:ae8a37a1004bd5bf2233e4a61cbc0265b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ccca4c93ee3a2757daebf0812f70db4" id="r_a3ccca4c93ee3a2757daebf0812f70db4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtracktion_1_1engine_1_1Edit.html#a06f3d6634e75e513e382232f0df7a3cf">EditFileRetriever</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtracktion_1_1engine_1_1Edit.html#a3ccca4c93ee3a2757daebf0812f70db4">editFileRetriever</a></td></tr>
+<tr class="memdesc:a3ccca4c93ee3a2757daebf0812f70db4"><td class="mdescLeft">&#160;</td><td class="mdescRight">This callback can be set to return the file for this <a class="el" href="classtracktion_1_1engine_1_1Edit.html" title="The Tracktion Edit class!">Edit</a>.  <br /></td></tr>
+<tr class="separator:a3ccca4c93ee3a2757daebf0812f70db4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06591ab957b418cec2cf86dbccff2a67" id="r_a06591ab957b418cec2cf86dbccff2a67"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtracktion_1_1engine_1_1Edit.html#ab2772c65a556a43a8661b40731ae1616">FilePathResolver</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtracktion_1_1engine_1_1Edit.html#a06591ab957b418cec2cf86dbccff2a67">filePathResolver</a></td></tr>
+<tr class="memdesc:a06591ab957b418cec2cf86dbccff2a67"><td class="mdescLeft">&#160;</td><td class="mdescRight">This callback can be set to resolve file paths.  <br /></td></tr>
+<tr class="separator:a06591ab957b418cec2cf86dbccff2a67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9653730c72e3abae1b6a673a8ded260" id="r_ad9653730c72e3abae1b6a673a8ded260"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structtracktion_1_1engine_1_1EditItemCache.html">EditItemCache</a>&lt; <a class="el" href="classtracktion_1_1engine_1_1Track.html">Track</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtracktion_1_1engine_1_1Edit.html#ad9653730c72e3abae1b6a673a8ded260">trackCache</a></td></tr>
 <tr class="memdesc:ad9653730c72e3abae1b6a673a8ded260"><td class="mdescLeft">&#160;</td><td class="mdescRight">Quick way to find and iterate all <a class="el" href="classtracktion_1_1engine_1_1Track.html" title="Base class for tracks which contain clips and plugins and can be added to Edit[s].">Track</a>[s] in the <a class="el" href="classtracktion_1_1engine_1_1Edit.html" title="The Tracktion Edit class!">Edit</a>.  <br /></td></tr>
 <tr class="separator:ad9653730c72e3abae1b6a673a8ded260"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -672,6 +681,12 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:af0598c6a440a321412134a28bd1c76be" id="r_af0598c6a440a321412134a28bd1c76be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structtracktion_1_1engine_1_1EditItemCache.html">EditItemCache</a>&lt; <a class="el" href="classtracktion_1_1engine_1_1Clip.html">Clip</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtracktion_1_1engine_1_1Edit.html#af0598c6a440a321412134a28bd1c76be">clipCache</a></td></tr>
 <tr class="memdesc:af0598c6a440a321412134a28bd1c76be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Quick way to find and iterate all <a class="el" href="classtracktion_1_1engine_1_1Clip.html" title="A clip in an edit.">Clip</a>[s] in the <a class="el" href="classtracktion_1_1engine_1_1Edit.html" title="The Tracktion Edit class!">Edit</a>.  <br /></td></tr>
 <tr class="separator:af0598c6a440a321412134a28bd1c76be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a338f87efe3cbce12a029f3e1ebdcc92d" id="r_a338f87efe3cbce12a029f3e1ebdcc92d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structtracktion_1_1engine_1_1EditItemCache.html">EditItemCache</a>&lt; <a class="el" href="classtracktion_1_1engine_1_1AutomatableEditItem.html">AutomatableEditItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtracktion_1_1engine_1_1Edit.html#a338f87efe3cbce12a029f3e1ebdcc92d">automatableEditItemCache</a></td></tr>
+<tr class="memdesc:a338f87efe3cbce12a029f3e1ebdcc92d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Quick way to find and iterate all <a class="el" href="classtracktion_1_1engine_1_1AutomatableEditItem.html" title="Base class for elements that have some kind of automatable parameters.">AutomatableEditItem</a>[s] in the <a class="el" href="classtracktion_1_1engine_1_1Edit.html" title="The Tracktion Edit class!">Edit</a>.  <br /></td></tr>
+<tr class="separator:a338f87efe3cbce12a029f3e1ebdcc92d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac62623095f532688e2c739bed168af76" id="r_ac62623095f532688e2c739bed168af76"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structtracktion_1_1engine_1_1EditItemCache.html">EditItemCache</a>&lt; AutomationCurveModifier &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtracktion_1_1engine_1_1Edit.html#ac62623095f532688e2c739bed168af76">automationCurveModifierEditItemCache</a></td></tr>
+<tr class="memdesc:ac62623095f532688e2c739bed168af76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Quick way to find and iterate all AutomationCurveModifier[s] in the <a class="el" href="classtracktion_1_1engine_1_1Edit.html" title="The Tracktion Edit class!">Edit</a>.  <br /></td></tr>
+<tr class="separator:ac62623095f532688e2c739bed168af76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad5745edd35acae8ee7f64eb22c276d8" id="r_aad5745edd35acae8ee7f64eb22c276d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtracktion_1_1engine_1_1TempoSequence.html">TempoSequence</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtracktion_1_1engine_1_1Edit.html#aad5745edd35acae8ee7f64eb22c276d8">tempoSequence</a></td></tr>
 <tr class="memdesc:aad5745edd35acae8ee7f64eb22c276d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The global <a class="el" href="classtracktion_1_1engine_1_1TempoSequence.html" title="Holds a list of TempoSetting objects, to form a sequence of tempo changes.">TempoSequence</a> of this <a class="el" href="classtracktion_1_1engine_1_1Edit.html" title="The Tracktion Edit class!">Edit</a>.  <br /></td></tr>
 <tr class="separator:aad5745edd35acae8ee7f64eb22c276d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -773,7 +788,7 @@ Static Public Attributes</h2></td></tr>
 <li><a class="el" href="classtracktion_1_1engine_1_1PluginList.html" title="Holds a sequence of plugins.">PluginList</a><ul>
 <li><a class="el" href="classtracktion_1_1engine_1_1Plugin.html">Plugin</a>[s] (<a class="el" href="classtracktion_1_1engine_1_1VolumeAndPanPlugin.html" title="The built-in Tracktion volume/pan plugin.">VolumeAndPanPlugin</a>, <a class="el" href="classtracktion_1_1engine_1_1LevelMeterPlugin.html">LevelMeterPlugin</a>, <a class="el" href="classtracktion_1_1engine_1_1ExternalPlugin.html">ExternalPlugin</a>)<ul>
 <li><a class="el" href="classtracktion_1_1engine_1_1AutomatableParameter.html">AutomatableParameter</a>[s]<ul>
-<li><a class="el" href="classtracktion_1_1engine_1_1AutomationCurve.html">AutomationCurve</a></li>
+<li>AutomationCurve</li>
 </ul>
 </li>
 </ul>
@@ -802,7 +817,36 @@ Static Public Attributes</h2></td></tr>
 </li>
 </ul>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classtracktion_1_1engine_1_1EditFileOperations.html" title="Contains methods for saving an Edit to a file.">EditFileOperations</a>, <a class="el" href="tracktion__EditUtilities_8h.html">tracktion_EditUtilities.h</a> </dd></dl>
-</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a06f3d6634e75e513e382232f0df7a3cf" name="a06f3d6634e75e513e382232f0df7a3cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06f3d6634e75e513e382232f0df7a3cf">&#9670;&#160;</a></span>EditFileRetriever</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classtracktion_1_1engine_1_1Edit.html#a06f3d6634e75e513e382232f0df7a3cf">tracktion::engine::Edit::EditFileRetriever</a> =  std::function&lt;juce::File()&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab2772c65a556a43a8661b40731ae1616" name="ab2772c65a556a43a8661b40731ae1616"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2772c65a556a43a8661b40731ae1616">&#9670;&#160;</a></span>FilePathResolver</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classtracktion_1_1engine_1_1Edit.html#ab2772c65a556a43a8661b40731ae1616">tracktion::engine::Edit::FilePathResolver</a> =  std::function&lt;juce::File(const juce::String&amp;)&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a474ef5984345c5b32ffa52ecff59321a" name="a474ef5984345c5b32ffa52ecff59321a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a474ef5984345c5b32ffa52ecff59321a">&#9670;&#160;</a></span>EditRole</h2>
 
@@ -3151,6 +3195,51 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a12f68b1045e86a460b319c7c88437234" name="a12f68b1045e86a460b319c7c88437234"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12f68b1045e86a460b319c7c88437234">&#9670;&#160;</a></span>setLatencyCompensationEnabled()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void tracktion::engine::Edit::setLatencyCompensationEnabled </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>enabled</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Can be used to disable latency compensation when playing (it is enabled by default) </p>
+
+</div>
+</div>
+<a id="ac63d2cb24d6d18dcfe8a000335b0607b" name="ac63d2cb24d6d18dcfe8a000335b0607b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac63d2cb24d6d18dcfe8a000335b0607b">&#9670;&#160;</a></span>isLatencyCompensationEnabled()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool tracktion::engine::Edit::isLatencyCompensationEnabled </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="af4ef8f026885becf6226c16eacde6430" name="af4ef8f026885becf6226c16eacde6430"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af4ef8f026885becf6226c16eacde6430">&#9670;&#160;</a></span>getRackList()</h2>
 
@@ -4576,14 +4665,14 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a239497b91484221c8d4b2118ca648197" name="a239497b91484221c8d4b2118ca648197"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a239497b91484221c8d4b2118ca648197">&#9670;&#160;</a></span>editFileRetriever</h2>
+<a id="a3ccca4c93ee3a2757daebf0812f70db4" name="a3ccca4c93ee3a2757daebf0812f70db4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ccca4c93ee3a2757daebf0812f70db4">&#9670;&#160;</a></span>editFileRetriever</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::function&lt;juce::File()&gt; tracktion::engine::Edit::editFileRetriever</td>
+          <td class="memname"><a class="el" href="classtracktion_1_1engine_1_1Edit.html#a06f3d6634e75e513e382232f0df7a3cf">EditFileRetriever</a> tracktion::engine::Edit::editFileRetriever</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4593,14 +4682,14 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ae8a37a1004bd5bf2233e4a61cbc0265b" name="ae8a37a1004bd5bf2233e4a61cbc0265b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae8a37a1004bd5bf2233e4a61cbc0265b">&#9670;&#160;</a></span>filePathResolver</h2>
+<a id="a06591ab957b418cec2cf86dbccff2a67" name="a06591ab957b418cec2cf86dbccff2a67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06591ab957b418cec2cf86dbccff2a67">&#9670;&#160;</a></span>filePathResolver</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::function&lt;juce::File (const juce::String&amp;)&gt; tracktion::engine::Edit::filePathResolver</td>
+          <td class="memname"><a class="el" href="classtracktion_1_1engine_1_1Edit.html#ab2772c65a556a43a8661b40731ae1616">FilePathResolver</a> tracktion::engine::Edit::filePathResolver</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4709,6 +4798,38 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Quick way to find and iterate all <a class="el" href="classtracktion_1_1engine_1_1Clip.html" title="A clip in an edit.">Clip</a>[s] in the <a class="el" href="classtracktion_1_1engine_1_1Edit.html" title="The Tracktion Edit class!">Edit</a>. </p>
+
+</div>
+</div>
+<a id="a338f87efe3cbce12a029f3e1ebdcc92d" name="a338f87efe3cbce12a029f3e1ebdcc92d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a338f87efe3cbce12a029f3e1ebdcc92d">&#9670;&#160;</a></span>automatableEditItemCache</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structtracktion_1_1engine_1_1EditItemCache.html">EditItemCache</a>&lt;<a class="el" href="classtracktion_1_1engine_1_1AutomatableEditItem.html">AutomatableEditItem</a>&gt; tracktion::engine::Edit::automatableEditItemCache</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Quick way to find and iterate all <a class="el" href="classtracktion_1_1engine_1_1AutomatableEditItem.html" title="Base class for elements that have some kind of automatable parameters.">AutomatableEditItem</a>[s] in the <a class="el" href="classtracktion_1_1engine_1_1Edit.html" title="The Tracktion Edit class!">Edit</a>. </p>
+
+</div>
+</div>
+<a id="ac62623095f532688e2c739bed168af76" name="ac62623095f532688e2c739bed168af76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac62623095f532688e2c739bed168af76">&#9670;&#160;</a></span>automationCurveModifierEditItemCache</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structtracktion_1_1engine_1_1EditItemCache.html">EditItemCache</a>&lt;AutomationCurveModifier&gt; tracktion::engine::Edit::automationCurveModifierEditItemCache</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Quick way to find and iterate all AutomationCurveModifier[s] in the <a class="el" href="classtracktion_1_1engine_1_1Edit.html" title="The Tracktion Edit class!">Edit</a>. </p>
 
 </div>
 </div>
@@ -5065,7 +5186,7 @@ Static Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Feb 8 2025 20:37:52 for TracktionEngine by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Mon Jun 30 2025 10:42:18 for TracktionEngine by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
