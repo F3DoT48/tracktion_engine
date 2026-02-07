@@ -38,22 +38,6 @@
     <filename>tracktion__RexFileFormat_8h.html</filename>
   </compound>
   <compound kind="file">
-    <name>tracktion_engine/audio_files/tracktion_AudioFifo.h</name>
-    <path>build/tracktion_engine/audio_files/</path>
-    <filename>tracktion__engine_2audio__files_2tracktion__AudioFifo_8h.html</filename>
-    <class kind="class">tracktion::engine::AudioFifo</class>
-    <namespace>tracktion</namespace>
-    <namespace>tracktion::engine</namespace>
-  </compound>
-  <compound kind="file">
-    <name>tracktion_graph/utilities/tracktion_AudioFifo.h</name>
-    <path>build/tracktion_graph/utilities/</path>
-    <filename>tracktion__graph_2utilities_2tracktion__AudioFifo_8h.html</filename>
-    <class kind="class">tracktion::graph::AudioFifo</class>
-    <namespace>tracktion</namespace>
-    <namespace>tracktion::graph</namespace>
-  </compound>
-  <compound kind="file">
     <name>tracktion_AudioFile.h</name>
     <path>build/tracktion_engine/audio_files/</path>
     <filename>tracktion__AudioFile_8h.html</filename>
@@ -1466,22 +1450,6 @@
     <namespace>tracktion::engine</namespace>
   </compound>
   <compound kind="file">
-    <name>tracktion_engine/playback/graph/tracktion_MultiThreadedNodePlayer.h</name>
-    <path>build/tracktion_engine/playback/graph/</path>
-    <filename>tracktion__engine_2playback_2graph_2tracktion__MultiThreadedNodePlayer_8h.html</filename>
-    <class kind="class">tracktion::engine::MultiThreadedNodePlayer</class>
-    <namespace>tracktion</namespace>
-    <namespace>tracktion::engine</namespace>
-  </compound>
-  <compound kind="file">
-    <name>tracktion_graph/tracktion_graph/tracktion_MultiThreadedNodePlayer.h</name>
-    <path>build/tracktion_graph/tracktion_graph/</path>
-    <filename>tracktion__graph_2tracktion__graph_2tracktion__MultiThreadedNodePlayer_8h.html</filename>
-    <class kind="class">tracktion::graph::MultiThreadedNodePlayer</class>
-    <namespace>tracktion</namespace>
-    <namespace>tracktion::graph</namespace>
-  </compound>
-  <compound kind="file">
     <name>tracktion_NodeRenderContext.h</name>
     <path>build/tracktion_engine/playback/graph/</path>
     <filename>tracktion__NodeRenderContext_8h.html</filename>
@@ -2208,6 +2176,45 @@
     <namespace>tracktion::engine</namespace>
   </compound>
   <compound kind="file">
+    <name>tracktion_DAWproject.h</name>
+    <path>build/tracktion_engine/project/dawproject/</path>
+    <filename>tracktion__DAWproject_8h.html</filename>
+    <class kind="struct">tracktion::engine::dawproject::ParseOptions</class>
+    <class kind="struct">tracktion::engine::dawproject::WriteOptions</class>
+    <namespace>tracktion</namespace>
+    <namespace>tracktion::engine</namespace>
+    <namespace>tracktion::engine::dawproject</namespace>
+  </compound>
+  <compound kind="file">
+    <name>tracktion_DAWprojectExport.h</name>
+    <path>build/tracktion_engine/project/dawproject/</path>
+    <filename>tracktion__DAWprojectExport_8h.html</filename>
+    <class kind="class">tracktion::engine::dawproject::DAWprojectExporter</class>
+    <namespace>tracktion</namespace>
+    <namespace>tracktion::engine</namespace>
+    <namespace>tracktion::engine::dawproject</namespace>
+  </compound>
+  <compound kind="file">
+    <name>tracktion_DAWprojectImport.h</name>
+    <path>build/tracktion_engine/project/dawproject/</path>
+    <filename>tracktion__DAWprojectImport_8h.html</filename>
+    <class kind="class">tracktion::engine::dawproject::DAWprojectImporter</class>
+    <namespace>tracktion</namespace>
+    <namespace>tracktion::engine</namespace>
+    <namespace>tracktion::engine::dawproject</namespace>
+  </compound>
+  <compound kind="file">
+    <name>tracktion_DAWprojectMapping.h</name>
+    <path>build/tracktion_engine/project/dawproject/</path>
+    <filename>tracktion__DAWprojectMapping_8h.html</filename>
+    <class kind="class">tracktion::engine::dawproject::IDGenerator</class>
+    <class kind="class">tracktion::engine::dawproject::IDRefResolver</class>
+    <namespace>tracktion</namespace>
+    <namespace>tracktion::engine</namespace>
+    <namespace>tracktion::engine::dawproject</namespace>
+    <namespace>tracktion::engine::dawproject::xml</namespace>
+  </compound>
+  <compound kind="file">
     <name>tracktion_Project.h</name>
     <path>build/tracktion_engine/project/</path>
     <filename>tracktion__Project_8h.html</filename>
@@ -2715,40 +2722,6 @@
     <namespace>tracktion::engine</namespace>
   </compound>
   <compound kind="file">
-    <name>tracktion_engine/utilities/tracktion_TestUtilities.h</name>
-    <path>build/tracktion_engine/utilities/</path>
-    <filename>tracktion__engine_2utilities_2tracktion__TestUtilities_8h.html</filename>
-    <namespace>tracktion</namespace>
-    <namespace>tracktion::engine</namespace>
-  </compound>
-  <compound kind="file">
-    <name>tracktion_graph/tracktion_graph/tracktion_TestUtilities.h</name>
-    <path>build/tracktion_graph/tracktion_graph/</path>
-    <filename>tracktion__graph_2tracktion__graph_2tracktion__TestUtilities_8h.html</filename>
-    <includes id="tracktion__FloatAudioFileFormat_8h" name="tracktion_FloatAudioFileFormat.h" local="yes" import="no" module="no" objc="no">../../tracktion_engine/audio_files/formats/tracktion_FloatAudioFileFormat.h</includes>
-    <class kind="struct">tracktion::graph::test_utilities::SineOscillator</class>
-    <class kind="struct">tracktion::graph::test_utilities::TestSetup</class>
-    <class kind="struct">tracktion::graph::test_utilities::TestContext</class>
-    <class kind="struct">tracktion::graph::test_utilities::TestProcess</class>
-    <namespace>tracktion</namespace>
-    <namespace>tracktion::graph</namespace>
-    <namespace>tracktion::graph::test_utilities</namespace>
-  </compound>
-  <compound kind="file">
-    <name>tracktion_engine/utilities/tracktion_Threads.h</name>
-    <path>build/tracktion_engine/utilities/</path>
-    <filename>tracktion__engine_2utilities_2tracktion__Threads_8h.html</filename>
-    <class kind="struct">engine::ScopedThreadExitStatusEnabler</class>
-    <namespace>engine</namespace>
-  </compound>
-  <compound kind="file">
-    <name>tracktion_graph/utilities/tracktion_Threads.h</name>
-    <path>build/tracktion_graph/utilities/</path>
-    <filename>tracktion__graph_2utilities_2tracktion__Threads_8h.html</filename>
-    <namespace>tracktion</namespace>
-    <namespace>tracktion::graph</namespace>
-  </compound>
-  <compound kind="file">
     <name>tracktion_Types.h</name>
     <path>build/tracktion_engine/utilities/</path>
     <filename>tracktion__Types_8h.html</filename>
@@ -2835,6 +2808,22 @@
     <namespace>tracktion::graph</namespace>
   </compound>
   <compound kind="file">
+    <name>tracktion_engine/playback/graph/tracktion_MultiThreadedNodePlayer.h</name>
+    <path>build/tracktion_engine/playback/graph/</path>
+    <filename>tracktion__engine_2playback_2graph_2tracktion__MultiThreadedNodePlayer_8h.html</filename>
+    <class kind="class">tracktion::engine::MultiThreadedNodePlayer</class>
+    <namespace>tracktion</namespace>
+    <namespace>tracktion::engine</namespace>
+  </compound>
+  <compound kind="file">
+    <name>tracktion_graph/tracktion_graph/tracktion_MultiThreadedNodePlayer.h</name>
+    <path>build/tracktion_graph/tracktion_graph/</path>
+    <filename>tracktion__graph_2tracktion__graph_2tracktion__MultiThreadedNodePlayer_8h.html</filename>
+    <class kind="class">tracktion::graph::MultiThreadedNodePlayer</class>
+    <namespace>tracktion</namespace>
+    <namespace>tracktion::graph</namespace>
+  </compound>
+  <compound kind="file">
     <name>tracktion_Node.h</name>
     <path>build/tracktion_graph/tracktion_graph/</path>
     <filename>tracktion__Node_8h.html</filename>
@@ -2906,6 +2895,26 @@
     <namespace>tracktion::graph</namespace>
   </compound>
   <compound kind="file">
+    <name>tracktion_engine/utilities/tracktion_TestUtilities.h</name>
+    <path>build/tracktion_engine/utilities/</path>
+    <filename>tracktion__engine_2utilities_2tracktion__TestUtilities_8h.html</filename>
+    <namespace>tracktion</namespace>
+    <namespace>tracktion::engine</namespace>
+  </compound>
+  <compound kind="file">
+    <name>tracktion_graph/tracktion_graph/tracktion_TestUtilities.h</name>
+    <path>build/tracktion_graph/tracktion_graph/</path>
+    <filename>tracktion__graph_2tracktion__graph_2tracktion__TestUtilities_8h.html</filename>
+    <includes id="tracktion__FloatAudioFileFormat_8h" name="tracktion_FloatAudioFileFormat.h" local="yes" import="no" module="no" objc="no">../../tracktion_engine/audio_files/formats/tracktion_FloatAudioFileFormat.h</includes>
+    <class kind="struct">tracktion::graph::test_utilities::SineOscillator</class>
+    <class kind="struct">tracktion::graph::test_utilities::TestSetup</class>
+    <class kind="struct">tracktion::graph::test_utilities::TestContext</class>
+    <class kind="struct">tracktion::graph::test_utilities::TestProcess</class>
+    <namespace>tracktion</namespace>
+    <namespace>tracktion::graph</namespace>
+    <namespace>tracktion::graph::test_utilities</namespace>
+  </compound>
+  <compound kind="file">
     <name>tracktion_Utility.h</name>
     <path>build/tracktion_graph/tracktion_graph/</path>
     <filename>tracktion__Utility_8h.html</filename>
@@ -2925,6 +2934,22 @@
     <path>build/tracktion_graph/utilities/</path>
     <filename>tracktion__AudioBufferStack_8h.html</filename>
     <class kind="class">tracktion::graph::AudioBufferStack</class>
+    <namespace>tracktion</namespace>
+    <namespace>tracktion::graph</namespace>
+  </compound>
+  <compound kind="file">
+    <name>tracktion_engine/audio_files/tracktion_AudioFifo.h</name>
+    <path>build/tracktion_engine/audio_files/</path>
+    <filename>tracktion__engine_2audio__files_2tracktion__AudioFifo_8h.html</filename>
+    <class kind="class">tracktion::engine::AudioFifo</class>
+    <namespace>tracktion</namespace>
+    <namespace>tracktion::engine</namespace>
+  </compound>
+  <compound kind="file">
+    <name>tracktion_graph/utilities/tracktion_AudioFifo.h</name>
+    <path>build/tracktion_graph/utilities/</path>
+    <filename>tracktion__graph_2utilities_2tracktion__AudioFifo_8h.html</filename>
+    <class kind="class">tracktion::graph::AudioFifo</class>
     <namespace>tracktion</namespace>
     <namespace>tracktion::graph</namespace>
   </compound>
@@ -2995,6 +3020,20 @@
     <class kind="class">tracktion::graph::LightweightSemaphore</class>
     <namespace>moodycamel</namespace>
     <namespace>moodycamel::details</namespace>
+    <namespace>tracktion</namespace>
+    <namespace>tracktion::graph</namespace>
+  </compound>
+  <compound kind="file">
+    <name>tracktion_engine/utilities/tracktion_Threads.h</name>
+    <path>build/tracktion_engine/utilities/</path>
+    <filename>tracktion__engine_2utilities_2tracktion__Threads_8h.html</filename>
+    <class kind="struct">engine::ScopedThreadExitStatusEnabler</class>
+    <namespace>engine</namespace>
+  </compound>
+  <compound kind="file">
+    <name>tracktion_graph/utilities/tracktion_Threads.h</name>
+    <path>build/tracktion_graph/utilities/</path>
+    <filename>tracktion__graph_2utilities_2tracktion__Threads_8h.html</filename>
     <namespace>tracktion</namespace>
     <namespace>tracktion::graph</namespace>
   </compound>
@@ -7009,59 +7048,59 @@
       <arglist>(int numSamples)</arglist>
     </member>
     <member kind="function">
-      <type>bool</type>
+      <type>TRACKTION_NO_TSAN bool</type>
       <name>write</name>
       <anchorfile>classtracktion_1_1engine_1_1AudioFifo.html</anchorfile>
-      <anchor>a3cffe9a5d1e7f449f79ad43af9050a00</anchor>
+      <anchor>ab976f236b1c5fc8ccf18761cae4aa18e</anchor>
       <arglist>(const juce::AudioBuffer&lt; float &gt; &amp;src)</arglist>
     </member>
     <member kind="function">
-      <type>bool</type>
+      <type>TRACKTION_NO_TSAN bool</type>
       <name>write</name>
       <anchorfile>classtracktion_1_1engine_1_1AudioFifo.html</anchorfile>
-      <anchor>a1f0d64259a793120dadda1a56674e2dc</anchor>
+      <anchor>aef6dc6ea8b6c430840069b9c441bd240</anchor>
       <arglist>(const juce::AudioBuffer&lt; float &gt; &amp;src, int startSample, int numSamples)</arglist>
     </member>
     <member kind="function">
-      <type>bool</type>
+      <type>TRACKTION_NO_TSAN bool</type>
       <name>write</name>
       <anchorfile>classtracktion_1_1engine_1_1AudioFifo.html</anchorfile>
-      <anchor>acb4fb1e587400dacaf1a97bbbecbeb59</anchor>
+      <anchor>aa7901b53f94b6838c9585f2e60343afc</anchor>
       <arglist>(const float *const *data, int numSamples)</arglist>
     </member>
     <member kind="function">
-      <type>bool</type>
+      <type>TRACKTION_NO_TSAN bool</type>
       <name>writeSilence</name>
       <anchorfile>classtracktion_1_1engine_1_1AudioFifo.html</anchorfile>
-      <anchor>a77c7fb6e43a5a2b2ef204522a6d09911</anchor>
+      <anchor>a47dd9024dc290061f791ae3482611539</anchor>
       <arglist>(int numSamples)</arglist>
     </member>
     <member kind="function">
-      <type>bool</type>
+      <type>TRACKTION_NO_TSAN bool</type>
       <name>read</name>
       <anchorfile>classtracktion_1_1engine_1_1AudioFifo.html</anchorfile>
-      <anchor>adc8d0358ad595b42c70a3593af157fdf</anchor>
+      <anchor>a2ebef535ae07db64293899b08bb19803</anchor>
       <arglist>(juce::AudioBuffer&lt; float &gt; &amp;dest, int startSampleInDestBuffer)</arglist>
     </member>
     <member kind="function">
-      <type>bool</type>
+      <type>TRACKTION_NO_TSAN bool</type>
       <name>read</name>
       <anchorfile>classtracktion_1_1engine_1_1AudioFifo.html</anchorfile>
-      <anchor>aa4e7a0bb63e60e1d19e4cb0080221f44</anchor>
+      <anchor>a7efbeeabc53ed2f8282f042187833636</anchor>
       <arglist>(juce::AudioBuffer&lt; float &gt; &amp;dest, int startSampleInDestBuffer, int numSamples)</arglist>
     </member>
     <member kind="function">
-      <type>bool</type>
+      <type>TRACKTION_NO_TSAN bool</type>
       <name>readAdding</name>
       <anchorfile>classtracktion_1_1engine_1_1AudioFifo.html</anchorfile>
-      <anchor>a05bfec0cde91df5f6c98780adb2f77a7</anchor>
+      <anchor>aacf8152a11e7dbba3afacf512c456502</anchor>
       <arglist>(juce::AudioBuffer&lt; float &gt; &amp;dest, int startSampleInDestBuffer)</arglist>
     </member>
     <member kind="function">
-      <type>bool</type>
+      <type>TRACKTION_NO_TSAN bool</type>
       <name>readAdding</name>
       <anchorfile>classtracktion_1_1engine_1_1AudioFifo.html</anchorfile>
-      <anchor>a33562b4541126738fef534c8338bb560</anchor>
+      <anchor>a6025ca8f27d4fb82c5d0e4b3fa5a0443</anchor>
       <arglist>(juce::AudioBuffer&lt; float &gt; &amp;dest, int startSampleInDestBuffer, int numSamples)</arglist>
     </member>
   </compound>
@@ -7118,31 +7157,31 @@
       <arglist>(int numFrames)</arglist>
     </member>
     <member kind="function">
-      <type>bool</type>
+      <type>TRACKTION_NO_TSAN bool</type>
       <name>write</name>
       <anchorfile>classtracktion_1_1graph_1_1AudioFifo.html</anchorfile>
-      <anchor>a9088fc0241d0f97c308d8c57255d7ca8</anchor>
+      <anchor>a1fc6dace0d977f40f1a2ab0bdf586b39</anchor>
       <arglist>(choc::buffer::ChannelArrayView&lt; float &gt; block)</arglist>
     </member>
     <member kind="function">
-      <type>bool</type>
+      <type>TRACKTION_NO_TSAN bool</type>
       <name>writeSilence</name>
       <anchorfile>classtracktion_1_1graph_1_1AudioFifo.html</anchorfile>
-      <anchor>a965f2fa4561c44350458fb816ebcf743</anchor>
+      <anchor>afd7ef7c5dbb45ed99c10fbd462d08603</anchor>
       <arglist>(choc::buffer::FrameCount numFrames)</arglist>
     </member>
     <member kind="function">
-      <type>bool</type>
+      <type>TRACKTION_NO_TSAN bool</type>
       <name>readAdding</name>
       <anchorfile>classtracktion_1_1graph_1_1AudioFifo.html</anchorfile>
-      <anchor>a0c9727bc6a9bebb0beea4a3bf5f80521</anchor>
+      <anchor>ae13bbb2609b20b41b5a2480d72e453db</anchor>
       <arglist>(choc::buffer::ChannelArrayView&lt; float &gt; dest)</arglist>
     </member>
     <member kind="function">
-      <type>bool</type>
+      <type>TRACKTION_NO_TSAN bool</type>
       <name>readOverwriting</name>
       <anchorfile>classtracktion_1_1graph_1_1AudioFifo.html</anchorfile>
-      <anchor>a0e28184f89311310cf679d2b865a047a</anchor>
+      <anchor>aca32cb2201d52c87a19eb075f04684cb</anchor>
       <arglist>(choc::buffer::ChannelArrayView&lt; float &gt; dest)</arglist>
     </member>
     <member kind="function">
@@ -23642,6 +23681,63 @@
       <arglist></arglist>
     </member>
   </compound>
+  <compound kind="class">
+    <name>tracktion::engine::dawproject::DAWprojectExporter</name>
+    <filename>classtracktion_1_1engine_1_1dawproject_1_1DAWprojectExporter.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>DAWprojectExporter</name>
+      <anchorfile>classtracktion_1_1engine_1_1dawproject_1_1DAWprojectExporter.html</anchorfile>
+      <anchor>af06f241c3753f5cc8975a9dc97ae2fd3</anchor>
+      <arglist>(Edit &amp;edit, const WriteOptions &amp;options)</arglist>
+    </member>
+    <member kind="function">
+      <type>tl::expected&lt; std::unique_ptr&lt; juce::XmlElement &gt;, juce::String &gt;</type>
+      <name>createProjectXml</name>
+      <anchorfile>classtracktion_1_1engine_1_1dawproject_1_1DAWprojectExporter.html</anchorfile>
+      <anchor>adb35c137d31f6e6dbca4f85ac527139e</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; juce::XmlElement &gt;</type>
+      <name>createMetadataXml</name>
+      <anchorfile>classtracktion_1_1engine_1_1dawproject_1_1DAWprojectExporter.html</anchorfile>
+      <anchor>a1b6939b8c6f818bc22bc72222e2e4cda</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>juce::Result</type>
+      <name>writeToFile</name>
+      <anchorfile>classtracktion_1_1engine_1_1dawproject_1_1DAWprojectExporter.html</anchorfile>
+      <anchor>a5fc770e48a2e92c4e18edfb1b09c0f33</anchor>
+      <arglist>(const juce::File &amp;file)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>tracktion::engine::dawproject::DAWprojectImporter</name>
+    <filename>classtracktion_1_1engine_1_1dawproject_1_1DAWprojectImporter.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>DAWprojectImporter</name>
+      <anchorfile>classtracktion_1_1engine_1_1dawproject_1_1DAWprojectImporter.html</anchorfile>
+      <anchor>a720cdc0ed1ddf5e53161eed2accb179f</anchor>
+      <arglist>(Engine &amp;engine, const ParseOptions &amp;options)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; Edit &gt;</type>
+      <name>importFromFile</name>
+      <anchorfile>classtracktion_1_1engine_1_1dawproject_1_1DAWprojectImporter.html</anchorfile>
+      <anchor>a4db5c74e4a0df36c1628944896104cca</anchor>
+      <arglist>(const juce::File &amp;file)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; Edit &gt;</type>
+      <name>importFromXml</name>
+      <anchorfile>classtracktion_1_1engine_1_1dawproject_1_1DAWprojectImporter.html</anchorfile>
+      <anchor>a4e487bfb0bcec29228af587913d60bcb</anchor>
+      <arglist>(const juce::XmlElement &amp;projectXml, const juce::File &amp;audioFileDirectory)</arglist>
+    </member>
+  </compound>
   <compound kind="struct">
     <name>tracktion::engine::DbTimePair</name>
     <filename>structtracktion_1_1engine_1_1DbTimePair.html</filename>
@@ -34723,6 +34819,63 @@
       <anchorfile>classtracktion_1_1engine_1_1IconProG2.html</anchorfile>
       <anchor>ace32b33afcfefb9ff7626b6b6a166538</anchor>
       <arglist>(AssignmentMode newMode) override</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>tracktion::engine::dawproject::IDGenerator</name>
+    <filename>classtracktion_1_1engine_1_1dawproject_1_1IDGenerator.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>IDGenerator</name>
+      <anchorfile>classtracktion_1_1engine_1_1dawproject_1_1IDGenerator.html</anchorfile>
+      <anchor>ab51b11b0e0e798956dc15762a7141746</anchor>
+      <arglist>()=default</arglist>
+    </member>
+    <member kind="function">
+      <type>juce::String</type>
+      <name>generateID</name>
+      <anchorfile>classtracktion_1_1engine_1_1dawproject_1_1IDGenerator.html</anchorfile>
+      <anchor>a335ab9c1027ba10c97bcd7941326aaa7</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>reset</name>
+      <anchorfile>classtracktion_1_1engine_1_1dawproject_1_1IDGenerator.html</anchorfile>
+      <anchor>ab820d5eae34a0cdb9ffe2d0a38a0876a</anchor>
+      <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>tracktion::engine::dawproject::IDRefResolver</name>
+    <filename>classtracktion_1_1engine_1_1dawproject_1_1IDRefResolver.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>IDRefResolver</name>
+      <anchorfile>classtracktion_1_1engine_1_1dawproject_1_1IDRefResolver.html</anchorfile>
+      <anchor>a5e001fa37907ec19074d1f2b5a0481af</anchor>
+      <arglist>()=default</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>registerElement</name>
+      <anchorfile>classtracktion_1_1engine_1_1dawproject_1_1IDRefResolver.html</anchorfile>
+      <anchor>ae8cd41b7c04d57d666a0d1b6219cf444</anchor>
+      <arglist>(const juce::String &amp;id, juce::XmlElement *element)</arglist>
+    </member>
+    <member kind="function">
+      <type>juce::XmlElement *</type>
+      <name>resolveRef</name>
+      <anchorfile>classtracktion_1_1engine_1_1dawproject_1_1IDRefResolver.html</anchorfile>
+      <anchor>a6d3bb5d56a72d2e38d910ec89296d679</anchor>
+      <arglist>(const juce::String &amp;idref) const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>clear</name>
+      <anchorfile>classtracktion_1_1engine_1_1dawproject_1_1IDRefResolver.html</anchorfile>
+      <anchor>a87c3c24faa51e9edc7fd12fa22359ef7</anchor>
+      <arglist>()</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -47096,12 +47249,21 @@
     <name>tracktion::engine::ModifierNode</name>
     <filename>classtracktion_1_1engine_1_1ModifierNode.html</filename>
     <base>tracktion::graph::Node</base>
+    <member kind="enumeration">
+      <type></type>
+      <name>ClearOutputs</name>
+      <anchorfile>classtracktion_1_1engine_1_1ModifierNode.html</anchorfile>
+      <anchor>a47d84260b4f2951f2d6b6ffece494d67</anchor>
+      <arglist></arglist>
+      <enumvalue file="classtracktion_1_1engine_1_1ModifierNode.html" anchor="a47d84260b4f2951f2d6b6ffece494d67a7fa3b767c460b54a2be4d49030b349c7">no</enumvalue>
+      <enumvalue file="classtracktion_1_1engine_1_1ModifierNode.html" anchor="a47d84260b4f2951f2d6b6ffece494d67aa6105c0a611b41b08f1209506350279e">yes</enumvalue>
+    </member>
     <member kind="function">
       <type></type>
       <name>ModifierNode</name>
       <anchorfile>classtracktion_1_1engine_1_1ModifierNode.html</anchorfile>
-      <anchor>a60e9c347871a040fefeab64437b5b0e3</anchor>
-      <arglist>(std::unique_ptr&lt; Node &gt; input, tracktion::engine::Modifier::Ptr, double sampleRateToUse, int blockSizeToUse, const TrackMuteState *, tracktion::graph::PlayHeadState &amp;, bool rendering)</arglist>
+      <anchor>a8602c7a091b1f35afcd199843ba4d748</anchor>
+      <arglist>(std::unique_ptr&lt; Node &gt; input, tracktion::engine::Modifier::Ptr, double sampleRateToUse, int blockSizeToUse, const TrackMuteState *, tracktion::graph::PlayHeadState &amp;, bool rendering, ClearOutputs)</arglist>
     </member>
     <member kind="function">
       <type></type>
@@ -49908,6 +50070,31 @@
       <name>value</name>
       <anchorfile>structengine_1_1ParameterWithStateValue.html</anchorfile>
       <anchor>a8032e5b4ca67fdfdcc8356c4d17234dd</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>tracktion::engine::dawproject::ParseOptions</name>
+    <filename>structtracktion_1_1engine_1_1dawproject_1_1ParseOptions.html</filename>
+    <member kind="variable">
+      <type>bool</type>
+      <name>extractAudioFiles</name>
+      <anchorfile>structtracktion_1_1engine_1_1dawproject_1_1ParseOptions.html</anchorfile>
+      <anchor>ab62e7c1a20c74ae9cf1346d202af7217</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>juce::File</type>
+      <name>audioFileDestination</name>
+      <anchorfile>structtracktion_1_1engine_1_1dawproject_1_1ParseOptions.html</anchorfile>
+      <anchor>a5f0966bf3749bda12be9d93b7282f2d2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>Edit::EditRole</type>
+      <name>editRole</name>
+      <anchorfile>structtracktion_1_1engine_1_1dawproject_1_1ParseOptions.html</anchorfile>
+      <anchor>a292213c6771110baa6c14015259a77e3</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -76097,6 +76284,38 @@
       <arglist></arglist>
     </member>
   </compound>
+  <compound kind="struct">
+    <name>tracktion::engine::dawproject::WriteOptions</name>
+    <filename>structtracktion_1_1engine_1_1dawproject_1_1WriteOptions.html</filename>
+    <member kind="variable">
+      <type>bool</type>
+      <name>embedAudioFiles</name>
+      <anchorfile>structtracktion_1_1engine_1_1dawproject_1_1WriteOptions.html</anchorfile>
+      <anchor>adf67a44bcdfb19eb1580d1e069bb1499</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>bool</type>
+      <name>embedPluginState</name>
+      <anchorfile>structtracktion_1_1engine_1_1dawproject_1_1WriteOptions.html</anchorfile>
+      <anchor>afa41aafe04059e384e7ebdcb2fc80e15</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>juce::String</type>
+      <name>applicationName</name>
+      <anchorfile>structtracktion_1_1engine_1_1dawproject_1_1WriteOptions.html</anchorfile>
+      <anchor>a7e1e5264ea372aeee1756a1f417ae9bc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>juce::String</type>
+      <name>applicationVersion</name>
+      <anchorfile>structtracktion_1_1engine_1_1dawproject_1_1WriteOptions.html</anchorfile>
+      <anchor>a7f8fc1bfa39f95f61d75049cbadd5535</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
   <compound kind="concept">
     <name>tracktion::engine::WeakReferenceable</name>
     <filename>concepttracktion_1_1engine_1_1WeakReferenceable.html</filename>
@@ -76447,6 +76666,7 @@
     <namespace>tracktion::benchmark_utilities</namespace>
     <namespace>tracktion::Click</namespace>
     <namespace>tracktion::ClipConstants</namespace>
+    <namespace>tracktion::dawproject</namespace>
     <namespace>tracktion::detail</namespace>
     <namespace>tracktion::details</namespace>
     <namespace>tracktion::engine</namespace>
@@ -76884,6 +77104,7 @@
     <namespace>tracktion::engine::benchmark_utilities</namespace>
     <namespace>tracktion::engine::Click</namespace>
     <namespace>tracktion::engine::ClipConstants</namespace>
+    <namespace>tracktion::engine::dawproject</namespace>
     <namespace>tracktion::engine::detail</namespace>
     <namespace>tracktion::engine::details</namespace>
     <namespace>tracktion::engine::IDs</namespace>
@@ -79380,6 +79601,13 @@
       <arglist>(juce::AudioBuffer&lt; SampleType &gt; &amp;buffer)</arglist>
     </member>
     <member kind="function">
+      <type>SampleType</type>
+      <name>getRMS</name>
+      <anchorfile>namespacetracktion_1_1engine.html</anchorfile>
+      <anchor>aa3bbafa4195953084f57094036090b39</anchor>
+      <arglist>(choc::buffer::MonoView&lt; SampleType &gt;)</arglist>
+    </member>
+    <member kind="function">
       <type>PanLaw</type>
       <name>getDefaultPanLaw</name>
       <anchorfile>namespacetracktion_1_1engine.html</anchorfile>
@@ -80482,6 +80710,175 @@
       <anchor>a698ca679308d1dcfa39d667ab5f0ca1b</anchor>
       <arglist></arglist>
     </member>
+  </compound>
+  <compound kind="namespace">
+    <name>tracktion::engine::dawproject</name>
+    <filename>namespacetracktion_1_1engine_1_1dawproject.html</filename>
+    <namespace>tracktion::engine::dawproject::xml</namespace>
+    <class kind="class">tracktion::engine::dawproject::DAWprojectExporter</class>
+    <class kind="class">tracktion::engine::dawproject::DAWprojectImporter</class>
+    <class kind="class">tracktion::engine::dawproject::IDGenerator</class>
+    <class kind="class">tracktion::engine::dawproject::IDRefResolver</class>
+    <class kind="struct">tracktion::engine::dawproject::ParseOptions</class>
+    <class kind="struct">tracktion::engine::dawproject::WriteOptions</class>
+    <member kind="function">
+      <type>std::unique_ptr&lt; Edit &gt;</type>
+      <name>parseDAWproject</name>
+      <anchorfile>namespacetracktion_1_1engine_1_1dawproject.html</anchorfile>
+      <anchor>a63b1893d3f9faff247faa2264c1a93b4</anchor>
+      <arglist>(Engine &amp;engine, const juce::File &amp;file, ParseOptions options={})</arglist>
+    </member>
+    <member kind="function">
+      <type>tl::expected&lt; std::unique_ptr&lt; juce::XmlElement &gt;, juce::String &gt;</type>
+      <name>createDAWproject</name>
+      <anchorfile>namespacetracktion_1_1engine_1_1dawproject.html</anchorfile>
+      <anchor>a39916d55cd617fd6c0012da9d66d3c70</anchor>
+      <arglist>(Edit &amp;edit, WriteOptions options={})</arglist>
+    </member>
+    <member kind="function">
+      <type>juce::Result</type>
+      <name>writeDAWprojectFile</name>
+      <anchorfile>namespacetracktion_1_1engine_1_1dawproject.html</anchorfile>
+      <anchor>a48301a4d97234f1c5a142fc5da5b1bc5</anchor>
+      <arglist>(const juce::File &amp;file, Edit &amp;edit, WriteOptions options={})</arglist>
+    </member>
+    <member kind="function">
+      <type>float</type>
+      <name>velocityToNormalized</name>
+      <anchorfile>namespacetracktion_1_1engine_1_1dawproject.html</anchorfile>
+      <anchor>ad92a711e207ce255797652339ca851e7</anchor>
+      <arglist>(int velocity)</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>normalizedToVelocity</name>
+      <anchorfile>namespacetracktion_1_1engine_1_1dawproject.html</anchorfile>
+      <anchor>ad479ccf1a6d5298d97e470b9a71a20b7</anchor>
+      <arglist>(float normalized)</arglist>
+    </member>
+    <member kind="function">
+      <type>float</type>
+      <name>controllerValueToNormalized</name>
+      <anchorfile>namespacetracktion_1_1engine_1_1dawproject.html</anchorfile>
+      <anchor>a7d826b7129dd256748d11b8d75c667a2</anchor>
+      <arglist>(int value, int controllerType)</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>normalizedToControllerValue</name>
+      <anchorfile>namespacetracktion_1_1engine_1_1dawproject.html</anchorfile>
+      <anchor>adfe5362cab6012d0f54f8bee29b52ccc</anchor>
+      <arglist>(float normalized, int controllerType)</arglist>
+    </member>
+    <member kind="function">
+      <type>const char *</type>
+      <name>controllerTypeToExpression</name>
+      <anchorfile>namespacetracktion_1_1engine_1_1dawproject.html</anchorfile>
+      <anchor>a0c99d366a57cbd7dcb57bce3cd5803ff</anchor>
+      <arglist>(int type)</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>expressionToControllerType</name>
+      <anchorfile>namespacetracktion_1_1engine_1_1dawproject.html</anchorfile>
+      <anchor>afd263267fc2ca7c6764c37409e99dd90</anchor>
+      <arglist>(const juce::String &amp;expression)</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>ticksToBeats</name>
+      <anchorfile>namespacetracktion_1_1engine_1_1dawproject.html</anchorfile>
+      <anchor>a0b95972f531507dfc78cc30819444eba</anchor>
+      <arglist>(int64_t ticks, int ticksPerQuarterNote=defaultTicksPerQuarterNote)</arglist>
+    </member>
+    <member kind="function">
+      <type>int64_t</type>
+      <name>beatsToTicks</name>
+      <anchorfile>namespacetracktion_1_1engine_1_1dawproject.html</anchorfile>
+      <anchor>a586bf6fefbdab002b00364d4ac15b0d5</anchor>
+      <arglist>(double beats, int ticksPerQuarterNote=defaultTicksPerQuarterNote)</arglist>
+    </member>
+    <member kind="function">
+      <type>juce::String</type>
+      <name>colourToDAWprojectString</name>
+      <anchorfile>namespacetracktion_1_1engine_1_1dawproject.html</anchorfile>
+      <anchor>aef4c08d0bee13ed365880bb9c950e358</anchor>
+      <arglist>(juce::Colour colour)</arglist>
+    </member>
+    <member kind="function">
+      <type>juce::Colour</type>
+      <name>dawprojectStringToColour</name>
+      <anchorfile>namespacetracktion_1_1engine_1_1dawproject.html</anchorfile>
+      <anchor>a82a0cd390e3d141ed14b8a0ebed2fad6</anchor>
+      <arglist>(const juce::String &amp;str)</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>gainToDecibels</name>
+      <anchorfile>namespacetracktion_1_1engine_1_1dawproject.html</anchorfile>
+      <anchor>a117a3e772d82903899f9d15b89f19a6f</anchor>
+      <arglist>(float gain)</arglist>
+    </member>
+    <member kind="function">
+      <type>float</type>
+      <name>decibelsToGain</name>
+      <anchorfile>namespacetracktion_1_1engine_1_1dawproject.html</anchorfile>
+      <anchor>aa5ba8cc67ae72c4e03a968b53c15a8df</anchor>
+      <arglist>(double dB)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>setAttributeIfNotEmpty</name>
+      <anchorfile>namespacetracktion_1_1engine_1_1dawproject.html</anchorfile>
+      <anchor>a738fe87f9d5cb9226c6ea00d4e99fe3d</anchor>
+      <arglist>(juce::XmlElement &amp;element, const char *name, const juce::String &amp;value)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>setAttributeIfValid</name>
+      <anchorfile>namespacetracktion_1_1engine_1_1dawproject.html</anchorfile>
+      <anchor>ac344fe8bed0301ea453bb9a239a8d073</anchor>
+      <arglist>(juce::XmlElement &amp;element, const char *name, double value)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; juce::XmlElement &gt;</type>
+      <name>createXmlElement</name>
+      <anchorfile>namespacetracktion_1_1engine_1_1dawproject.html</anchorfile>
+      <anchor>a382e09ddf2e5fac6c0bbe6cf62a2e0c3</anchor>
+      <arglist>(const char *tagName)</arglist>
+    </member>
+    <member kind="function">
+      <type>juce::XmlElement *</type>
+      <name>addChildElement</name>
+      <anchorfile>namespacetracktion_1_1engine_1_1dawproject.html</anchorfile>
+      <anchor>a21b466aa1ab0e07b808c3134b0c31732</anchor>
+      <arglist>(juce::XmlElement &amp;parent, const char *tagName)</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>parseDouble</name>
+      <anchorfile>namespacetracktion_1_1engine_1_1dawproject.html</anchorfile>
+      <anchor>aff0a9d2945f658cc3013ef21be38c103</anchor>
+      <arglist>(const juce::String &amp;str, double defaultValue=0.0)</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>parseInt</name>
+      <anchorfile>namespacetracktion_1_1engine_1_1dawproject.html</anchorfile>
+      <anchor>a8ea416064f914c7065fb2d81788f04d6</anchor>
+      <arglist>(const juce::String &amp;str, int defaultValue=0)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>parseBool</name>
+      <anchorfile>namespacetracktion_1_1engine_1_1dawproject.html</anchorfile>
+      <anchor>a675e726bcc8c1f9e63b30cc68b8e65b7</anchor>
+      <arglist>(const juce::String &amp;str, bool defaultValue=false)</arglist>
+    </member>
+  </compound>
+  <compound kind="namespace">
+    <name>tracktion::engine::dawproject::xml</name>
+    <filename>namespacetracktion_1_1engine_1_1dawproject_1_1xml.html</filename>
   </compound>
   <compound kind="namespace">
     <name>tracktion::engine::detail</name>
@@ -81831,7 +82228,15 @@
     <filename>group__tracktion__engine-project.html</filename>
     <namespace>tracktion</namespace>
     <namespace>tracktion::engine</namespace>
+    <namespace>tracktion::engine::dawproject</namespace>
+    <namespace>tracktion::engine::dawproject::xml</namespace>
     <namespace>juce</namespace>
+    <class kind="struct">tracktion::engine::dawproject::ParseOptions</class>
+    <class kind="struct">tracktion::engine::dawproject::WriteOptions</class>
+    <class kind="class">tracktion::engine::dawproject::DAWprojectExporter</class>
+    <class kind="class">tracktion::engine::dawproject::DAWprojectImporter</class>
+    <class kind="class">tracktion::engine::dawproject::IDGenerator</class>
+    <class kind="class">tracktion::engine::dawproject::IDRefResolver</class>
     <class kind="class">tracktion::engine::Project</class>
     <class kind="class">tracktion::engine::ProjectItem</class>
     <class kind="class">tracktion::engine::ProjectItemID</class>
