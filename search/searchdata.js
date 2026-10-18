@@ -6,13 +6,14 @@ var indexSectionsWithContent =
   3: "t",
   4: "abcdefghijklmnopqrstuvwxyz~",
   5: "abcdefghijklmnopqrstuvwxz",
-  6: "acefhimpstw",
+  6: "acefhijmprstw",
   7: "acdefilmnopqrstuvw",
   8: "abcdefghijklmnopqrstuvwxyz",
   9: "t",
   10: "_acdksv",
   11: "3acdmpstu",
-  12: "t"
+  12: "dl",
+  13: "e"
 };
 
 var indexSectionNames =
@@ -29,7 +30,8 @@ var indexSectionNames =
   9: "related",
   10: "defines",
   11: "groups",
-  12: "concepts"
+  12: "pages",
+  13: "concepts"
 };
 
 var indexSectionLabels =
@@ -46,6 +48,7 @@ var indexSectionLabels =
   9: "Friends",
   10: "Macros",
   11: "Modules",
-  12: "Concepts"
+  12: "Pages",
+  13: "Concepts"
 };
 
